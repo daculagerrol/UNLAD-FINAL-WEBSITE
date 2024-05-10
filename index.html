@@ -22,12 +22,16 @@
            </div>
            <ul class="sidebar">
 
-                <li onclick=closeSidebar()><a href="#" class="closeSidebar"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li onclick=closeSidebar()>
+                    <button class="closeSidebar">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                    </button>
+                </li>
                 
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutUs.html">About Us</a></li>
-            <li><a href="member.html">How to be a Member</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="index.html" class="sidebar-links">Home</a></li>
+            <li><a href="about-us.html" class="sidebar-links">About Us</a></li>
+            <li><a href="member.html" class="sidebar-links">How to be a Member</a></li>
+            <li><a href="contact.html" class="sidebar-links">Contact Us</a></li>
 
 
             <img class="logo" src="images/UCC-Logo w Label.png" alt="UNLAD Credit Cooperative">
@@ -35,10 +39,11 @@
 
            <ul class="navbar">
             <li><a href="index.html">Home</a></li>
-            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="about-us.html">About Us</a></li>
             <li><a href="member.html">How to be a Member</a></li>
             <li><a href="contact.html">Contact Us</a></li>
-            <li onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>       
+            <li onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+            </svg></li>       
            </ul>
 
 
@@ -47,7 +52,6 @@
     <!-- HEADER SECTION END-->
 
     <!-- BANNER SECTION -->
-
     <div class="slide-container">
         <div class="slides">
             <img id="slide-img" src="slider/about-us.png" class="active">
